@@ -27,6 +27,7 @@ class Student{
         cout<<"sci marks:"<<sci<<endl;
         cout<<"Total:"<<ctotal(eng, math, sci);
         };
+
 };
 float Student::ctotal(float eng, float math, float sci){
 return eng+math+sci;
